@@ -1,0 +1,22 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": null,
+    "title": "HFT Trading Telemetry",
+    "timezone": "browser",
+    "schemaVersion": 16,
+    "version": 0,
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Dummy Counter",
+        "datasource": "Prometheus",
+        "targets": [
+          { "expr": "dummy_counter_total", "legendFormat": "counter", "refId": "A" }
+        ],
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 8 }
+      }
+    ]
+  },
+  "overwrite": false
+}
